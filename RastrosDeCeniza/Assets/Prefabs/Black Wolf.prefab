@@ -9,12 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5941483508910678157}
-  - component: {fileID: 4133826137410207595}
-  - component: {fileID: 2491709489329613379}
-  - component: {fileID: 7565577142532440028}
-  - component: {fileID: 944528836400189836}
-  - component: {fileID: 3988050682304082184}
-  - component: {fileID: 9117045662519435490}
   m_Layer: 0
   m_Name: Movement
   m_TagString: Untagged
@@ -31,57 +25,65 @@ Transform:
   m_GameObject: {fileID: 1018519478939821991}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.27, y: -0.03, z: 0}
+  m_LocalScale: {x: 0.9266537, y: 0.9266537, z: 0.9266537}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1907691257787458040}
+  - {fileID: 4851194158401424145}
+  - {fileID: 8114131327557274994}
+  m_Father: {fileID: 5850253301155965063}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2467193938162132322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8114131327557274994}
+  - component: {fileID: 1380922401069459010}
+  m_Layer: 0
+  m_Name: Stay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8114131327557274994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2467193938162132322}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5850253301155965063}
+  m_Father: {fileID: 5941483508910678157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4133826137410207595
+--- !u!114 &1380922401069459010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018519478939821991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 216787c5e9f9247d8800d6d6fd82e085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onCreate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6474509569637747308}
-        m_TargetAssemblyTypeName: UP_Transformer, Assembly-CSharp
-        m_MethodName: UP_SetVelocityX
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -1
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &2491709489329613379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018519478939821991}
+  m_GameObject: {fileID: 2467193938162132322}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66c1a45bbc27d4894a9a9d6f7750b4aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialTime: 1
+  initialTime: 6
   randomInitialTime:
     min: 0
     max: 1
   repeat: 1
-  repeatTime: 5
+  repeatTime: 12
   randomRepeatTime:
     min: 0
     max: 1
@@ -98,44 +100,50 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -1
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7565577142532440028
+--- !u!1 &3712960809646191294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907691257787458040}
+  - component: {fileID: 7997672627177886919}
+  - component: {fileID: 2632626648315832904}
+  m_Layer: 0
+  m_Name: Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1907691257787458040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3712960809646191294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5941483508910678157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7997672627177886919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018519478939821991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 216787c5e9f9247d8800d6d6fd82e085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onCreate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6474509569637747308}
-        m_TargetAssemblyTypeName: UP_Transformer, Assembly-CSharp
-        m_MethodName: UP_SetVelocityX
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 1
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &944528836400189836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018519478939821991}
+  m_GameObject: {fileID: 3712960809646191294}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66c1a45bbc27d4894a9a9d6f7750b4aa, type: 3}
@@ -151,7 +159,7 @@ MonoBehaviour:
     min: 0
     max: 1
   randomizeTimes: 0
-  autoStart: 0
+  autoStart: 1
   onTimeUp:
     m_PersistentCalls:
       m_Calls:
@@ -167,71 +175,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3988050682304082184
-MonoBehaviour:
+--- !u!95 &2632626648315832904
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018519478939821991}
+  m_GameObject: {fileID: 3712960809646191294}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 216787c5e9f9247d8800d6d6fd82e085, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onCreate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6474509569637747308}
-        m_TargetAssemblyTypeName: UP_Transformer, Assembly-CSharp
-        m_MethodName: UP_SetVelocityX
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &9117045662519435490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1018519478939821991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66c1a45bbc27d4894a9a9d6f7750b4aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialTime: 6
-  randomInitialTime:
-    min: 0
-    max: 1
-  repeat: 1
-  repeatTime: 12
-  randomRepeatTime:
-    min: 0
-    max: 1
-  randomizeTimes: 0
-  autoStart: 0
-  onTimeUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6474509569637747308}
-        m_TargetAssemblyTypeName: UP_Transformer, Assembly-CSharp
-        m_MethodName: UP_SetVelocityX
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4001412859663711983
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +227,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.86, y: -4.18, z: -2}
-  m_LocalScale: {x: 1.8202, y: 1.8202, z: 1.8202}
+  m_LocalScale: {x: 1.828267, y: 2.0775762, z: 2.0775762}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5941483508910678157}
@@ -534,3 +498,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &8806639024797292530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4851194158401424145}
+  - component: {fileID: 4689476299745454470}
+  m_Layer: 0
+  m_Name: Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851194158401424145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806639024797292530}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5941483508910678157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4689476299745454470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806639024797292530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c1a45bbc27d4894a9a9d6f7750b4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialTime: 1
+  randomInitialTime:
+    min: 0
+    max: 1
+  repeat: 1
+  repeatTime: 5
+  randomRepeatTime:
+    min: 0
+    max: 1
+  randomizeTimes: 0
+  autoStart: 1
+  onTimeUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6474509569637747308}
+        m_TargetAssemblyTypeName: UP_Transformer, Assembly-CSharp
+        m_MethodName: UP_SetVelocityX
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
