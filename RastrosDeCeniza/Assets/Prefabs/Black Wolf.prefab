@@ -1163,7 +1163,7 @@ MonoBehaviour:
   randomInitialTime:
     min: 0
     max: 1
-  repeat: 0
+  repeat: 1
   repeatTime: 2
   randomRepeatTime:
     min: 0

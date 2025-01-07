@@ -1,0 +1,1302 @@
+fileFormatVersion: 2
+guid: 198f4a6eb3993a84e9698424ed03cb51
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 320
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fad12d630655484ca5e792b47f16c31
+      internalID: -617061627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 320
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7b27bfc407c9942ade46e8d8ab6023
+      internalID: 2034402284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 320
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d1c9fb5e889cd4887d6d385a303326
+      internalID: 156942809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 320
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf6e7e61a3965d4580796e97d1e1871
+      internalID: -1246879660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 320
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64884194943c8af4393cb3afa307ecf4
+      internalID: 1708951634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 320
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293e35622995579478178935af5444c4
+      internalID: 1656879337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 320
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cd774d58179ce41a17aaff459bf2b1
+      internalID: -598372669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 320
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc38743a1cca3a449ace3d2e7bf4378
+      internalID: 898754994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 320
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533c401635bd12f47a9f5adb92919e59
+      internalID: 1901773072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 256
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07ea5aa16bd5bd4985d58aba2be03be
+      internalID: -684013049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 256
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd08aef96159754992ab1378eba7c8d
+      internalID: 1862757747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 256
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb651be090be14ba95694b1f87dc7a
+      internalID: -1044349583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 256
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5655e93b0158a85489b4b173abd49e92
+      internalID: -372240997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 256
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6309023db653244a561ccecce6c49d
+      internalID: 1469390193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 256
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d207a988286cfd47ae1615436b7d25f
+      internalID: 1459635065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_15
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 256
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1773483241d504b8d1533f826b7463
+      internalID: 832548902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_16
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 256
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39674631b19ed3f4ea2839af1cf8e736
+      internalID: 1656874475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 256
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddd01fbc84bc834a9188f8fb0a96a3c
+      internalID: 1716283408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 192
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a248439b3a2af746a81ade20af43203
+      internalID: 2119883652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 192
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4414ddfd29a62dc46b20975703f3c56f
+      internalID: 208744456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_20
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 192
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9ce976e7852ce41bf397f565260f8b
+      internalID: 433239005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 192
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d853678ead6f36941a6914b0e4169bc5
+      internalID: -1834510544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 192
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f9a2e51d8b9d4396aee5214163b8f
+      internalID: 519174174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 192
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcc51dd9e3df1a4d8075387a39ba526
+      internalID: 38186863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 192
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79598853be19d0e44af690c52eabfd88
+      internalID: -943745546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_25
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 192
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb42560ac05d7649ba5ace36360f8d0
+      internalID: 1176440060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_26
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 192
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de7ca0cc95538e40b00dbd88588d2f5
+      internalID: 1146745582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 128
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbe2f0226da6a45abcb66dfc6d1899
+      internalID: -1618397929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 128
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4184ec836519364984ba5170a9553d5
+      internalID: -715240680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_29
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 128
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b06892050f9c34897a1677c3bec465
+      internalID: -396044178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 128
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683e73656f989354687b103cdba99626
+      internalID: 1351781755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 128
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd75d5696c306a4581f73099475614d
+      internalID: -910397488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_32
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 128
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084c95a9fd20dad499df096afb16676a
+      internalID: 458372861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 128
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692ab6d4033c4ff4a8fb64d67d0a88dd
+      internalID: 497102715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 128
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d8281556377d643847f923f6cbef3c
+      internalID: -1206240553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_35
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 128
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc98465246e17e47a5066b25d5a4000
+      internalID: 1228535407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff87d872e39a746bee1f7cd6a81027
+      internalID: 922502767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 64
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5589e1340424845b7a29e62777a341
+      internalID: 457949913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 64
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0100e003aee8bd94aa88c5d142dda779
+      internalID: -764107172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_39
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 64
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b62f2cd551498479ca2b493673361f
+      internalID: -2101462528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 64
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab134bc4871c99140bbc92e49df4cab9
+      internalID: 1890857555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 64
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3371a31f34fff14bab8ac8af380e5e9
+      internalID: -1531888962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_42
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 64
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a2ab49df598b2429e39d25c4863bc9
+      internalID: -811884502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_43
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 64
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da34542dc0e471d429811b6b139af1ee
+      internalID: -1292147002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_44
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 64
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e840a5ddfd5554090d728591dd1089
+      internalID: -760300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_45
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bad8dc2967889489ec0a2196929df3
+      internalID: -82138531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_46
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7719fdcdbfef2174caa53fc2ef9bd749
+      internalID: 2048098450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_47
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1be1d1954b5ea4f812aad7d32c6590
+      internalID: 64510458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_48
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9781d869be872e24b9fbe010ba031bca
+      internalID: 1270952354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70e2ffe0572ae4193fee19f0e1a26b
+      internalID: -671754981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_50
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98ffbe32b3f74a49ba28fb60b4e56dc
+      internalID: -2075354432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22014a571dd1b47409b325e23ff413bb
+      internalID: -861393408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61ba84ad51b5a543891e00aa65ac508
+      internalID: -1535050255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Manzana SV_Battler_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598a8873c3c24184395a9ef66786ae7a
+      internalID: -117217052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Green Manzana SV_Battler_0: -617061627
+      Green Manzana SV_Battler_1: 2034402284
+      Green Manzana SV_Battler_10: 1862757747
+      Green Manzana SV_Battler_11: -1044349583
+      Green Manzana SV_Battler_12: -372240997
+      Green Manzana SV_Battler_13: 1469390193
+      Green Manzana SV_Battler_14: 1459635065
+      Green Manzana SV_Battler_15: 832548902
+      Green Manzana SV_Battler_16: 1656874475
+      Green Manzana SV_Battler_17: 1716283408
+      Green Manzana SV_Battler_18: 2119883652
+      Green Manzana SV_Battler_19: 208744456
+      Green Manzana SV_Battler_2: 156942809
+      Green Manzana SV_Battler_20: 433239005
+      Green Manzana SV_Battler_21: -1834510544
+      Green Manzana SV_Battler_22: 519174174
+      Green Manzana SV_Battler_23: 38186863
+      Green Manzana SV_Battler_24: -943745546
+      Green Manzana SV_Battler_25: 1176440060
+      Green Manzana SV_Battler_26: 1146745582
+      Green Manzana SV_Battler_27: -1618397929
+      Green Manzana SV_Battler_28: -715240680
+      Green Manzana SV_Battler_29: -396044178
+      Green Manzana SV_Battler_3: -1246879660
+      Green Manzana SV_Battler_30: 1351781755
+      Green Manzana SV_Battler_31: -910397488
+      Green Manzana SV_Battler_32: 458372861
+      Green Manzana SV_Battler_33: 497102715
+      Green Manzana SV_Battler_34: -1206240553
+      Green Manzana SV_Battler_35: 1228535407
+      Green Manzana SV_Battler_36: 922502767
+      Green Manzana SV_Battler_37: 457949913
+      Green Manzana SV_Battler_38: -764107172
+      Green Manzana SV_Battler_39: -2101462528
+      Green Manzana SV_Battler_4: 1708951634
+      Green Manzana SV_Battler_40: 1890857555
+      Green Manzana SV_Battler_41: -1531888962
+      Green Manzana SV_Battler_42: -811884502
+      Green Manzana SV_Battler_43: -1292147002
+      Green Manzana SV_Battler_44: -760300322
+      Green Manzana SV_Battler_45: -82138531
+      Green Manzana SV_Battler_46: 2048098450
+      Green Manzana SV_Battler_47: 64510458
+      Green Manzana SV_Battler_48: 1270952354
+      Green Manzana SV_Battler_49: -671754981
+      Green Manzana SV_Battler_5: 1656879337
+      Green Manzana SV_Battler_50: -2075354432
+      Green Manzana SV_Battler_51: -861393408
+      Green Manzana SV_Battler_52: -1535050255
+      Green Manzana SV_Battler_53: -117217052
+      Green Manzana SV_Battler_6: -598372669
+      Green Manzana SV_Battler_7: 898754994
+      Green Manzana SV_Battler_8: 1901773072
+      Green Manzana SV_Battler_9: -684013049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

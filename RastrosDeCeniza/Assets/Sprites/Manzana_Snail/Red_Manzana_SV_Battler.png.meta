@@ -1,0 +1,1302 @@
+fileFormatVersion: 2
+guid: 8d5eb48c734fe1f49b92e3d921450a79
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 333
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35d5bca08785943acd5fabc78f3c76
+      internalID: -1560990667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 333
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c917f86bdd2b545ad0eccf85ee9b54
+      internalID: 2052485569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 333
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b997bfda3bb9e584c87fbc6b6a6dce79
+      internalID: -1735612650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 333
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cdf09067f15ae43aa441f14e4ceb3c
+      internalID: -473713425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 333
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a5374d4c8c9964c929eb7d149cce13
+      internalID: 385150910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 333
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a184f5ee8f1c9bb44b8dda7c37c8529e
+      internalID: -980737427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 333
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c49446768ddc904eb9cc4a080d7abd5
+      internalID: 5080745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 333
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c400b3658bdbfde4c8c9f4a764d1cd2f
+      internalID: 2139431934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 333
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dcad39e6d4b02459bc4e4383bc75c1
+      internalID: -860497567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 269
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ab77af0b84e784784adc9527c92443
+      internalID: -561414993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 269
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229336e891e52c44e9cda1760b7ed93b
+      internalID: -796574027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 269
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc052a0311e2514fa8a1e1efd6abde3
+      internalID: -1861085641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 269
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75e93c2bfb80644aa1549ffdf5a12fb
+      internalID: 435065070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 269
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0426a38e4423e8c4e94d3b522a6cf247
+      internalID: 326084096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_14
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 269
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f7602b2acc4084db7eceab7d2c3c55
+      internalID: 1276936526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 269
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cd6b9cd6dcca041bd86c7cc6cfeae9
+      internalID: 75239624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_16
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 269
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a87f8d033bfab4c814e9e77e4d0d7b
+      internalID: 918519851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_17
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 269
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f5c35f097d15a4f81802170a53fd13
+      internalID: -420089571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 205
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bdaad26a7165a45b0ad33ce950eda5
+      internalID: -759124759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 205
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37c5d32453843a4986d18cf2c8b8fb7
+      internalID: 1523278636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 205
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8556e2d7e47df84c8334aae70aa8634
+      internalID: 246906677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 205
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bdb28875d605047b29b1dc3c94fe26
+      internalID: 451003761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_22
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 205
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50d148dc0bdd87488efefe879832235
+      internalID: 22912008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 205
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf702e9a09311e49ba78682b631a2e4
+      internalID: -1402517660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_24
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 205
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed23fb6e83d6d84eb203f5291f5062a
+      internalID: -1425090455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_25
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 205
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee6fbd354d1aaa4f90b57b9c97e65b1
+      internalID: 955475385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_26
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 205
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b956c258bf6d6c943808baf38ecaa7b1
+      internalID: -856080765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 141
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb81b87cbfee95946bb947182fd8d756
+      internalID: -543611541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 141
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdf4cadc4a250140a5ed79867f1dae6
+      internalID: -461415746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 141
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2b8df4425291941a7a78e610bc2205
+      internalID: -1088642535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_30
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 141
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ec08004acf65147a798fd608752fd4
+      internalID: -997383361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_31
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 141
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1320b96fbd92454ea85f27d6b996bdd
+      internalID: 2089920092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_32
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 141
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab7d02a041d9d4782a6fca0ddc3ab7
+      internalID: -191178274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_33
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 141
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d5b078dc57c840b0cda03b86718a2
+      internalID: -369123305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 141
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c95d9df3c22a4a4e9cb66d565df7895
+      internalID: -249302878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_35
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 141
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829ca5c5b4a849d49b6021a1e38044fc
+      internalID: -1978721288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 77
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa79a1dee4794c4c84e200a217571b1
+      internalID: 2063644651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 77
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0906523c9f6a46ae7cf2bfd5bbef0
+      internalID: 365054758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 77
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1694e7366cdc14b9c9014e3ed42ab3
+      internalID: 1718590314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_39
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 77
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2e730d41201f479e1470cdded1fd4
+      internalID: 2060513381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_40
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 77
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8117871ce054445a0af0954b711587
+      internalID: 1556544754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_41
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 77
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbf279d9b5bc98459e8f575cc4612c0
+      internalID: 2102424492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 77
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73840bcb93310e24e9688668e08e8837
+      internalID: 490154570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_43
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 77
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8419ae917c0a65438e62795a4a786e8
+      internalID: -227207957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 77
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e029e603d6d4b49b151dad730c4254
+      internalID: 61577570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d46fe2535e18140aacbddc07a2ad1f
+      internalID: 1788848193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 13
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726914f6a4ba2504e913a72df8608d4f
+      internalID: 2025289736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_47
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeda18b38b5a9f546a4de78784a2eab5
+      internalID: 520291308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 13
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45053ec0e88df940993ec3f1f4afc7b
+      internalID: -1362248614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_49
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 13
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb736b520043f9e45b5deab3fac75128
+      internalID: 1921696304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_50
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 13
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ca8f1693d68b247b0d07e7452313ad
+      internalID: 857276454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_51
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 13
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec5aa93a0f09324ab7484f08e8217bd
+      internalID: 449361168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_52
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 13
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d316d36133d7f7429c0031e6ae90082
+      internalID: -1181686676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Manzana_SV_Battler_53
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 13
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2635850bd2c412d468d9f1621bedf064
+      internalID: 545521464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Red_Manzana_SV_Battler_0: -1560990667
+      Red_Manzana_SV_Battler_1: 2052485569
+      Red_Manzana_SV_Battler_10: -796574027
+      Red_Manzana_SV_Battler_11: -1861085641
+      Red_Manzana_SV_Battler_12: 435065070
+      Red_Manzana_SV_Battler_13: 326084096
+      Red_Manzana_SV_Battler_14: 1276936526
+      Red_Manzana_SV_Battler_15: 75239624
+      Red_Manzana_SV_Battler_16: 918519851
+      Red_Manzana_SV_Battler_17: -420089571
+      Red_Manzana_SV_Battler_18: -759124759
+      Red_Manzana_SV_Battler_19: 1523278636
+      Red_Manzana_SV_Battler_2: -1735612650
+      Red_Manzana_SV_Battler_20: 246906677
+      Red_Manzana_SV_Battler_21: 451003761
+      Red_Manzana_SV_Battler_22: 22912008
+      Red_Manzana_SV_Battler_23: -1402517660
+      Red_Manzana_SV_Battler_24: -1425090455
+      Red_Manzana_SV_Battler_25: 955475385
+      Red_Manzana_SV_Battler_26: -856080765
+      Red_Manzana_SV_Battler_27: -543611541
+      Red_Manzana_SV_Battler_28: -461415746
+      Red_Manzana_SV_Battler_29: -1088642535
+      Red_Manzana_SV_Battler_3: -473713425
+      Red_Manzana_SV_Battler_30: -997383361
+      Red_Manzana_SV_Battler_31: 2089920092
+      Red_Manzana_SV_Battler_32: -191178274
+      Red_Manzana_SV_Battler_33: -369123305
+      Red_Manzana_SV_Battler_34: -249302878
+      Red_Manzana_SV_Battler_35: -1978721288
+      Red_Manzana_SV_Battler_36: 2063644651
+      Red_Manzana_SV_Battler_37: 365054758
+      Red_Manzana_SV_Battler_38: 1718590314
+      Red_Manzana_SV_Battler_39: 2060513381
+      Red_Manzana_SV_Battler_4: 385150910
+      Red_Manzana_SV_Battler_40: 1556544754
+      Red_Manzana_SV_Battler_41: 2102424492
+      Red_Manzana_SV_Battler_42: 490154570
+      Red_Manzana_SV_Battler_43: -227207957
+      Red_Manzana_SV_Battler_44: 61577570
+      Red_Manzana_SV_Battler_45: 1788848193
+      Red_Manzana_SV_Battler_46: 2025289736
+      Red_Manzana_SV_Battler_47: 520291308
+      Red_Manzana_SV_Battler_48: -1362248614
+      Red_Manzana_SV_Battler_49: 1921696304
+      Red_Manzana_SV_Battler_5: -980737427
+      Red_Manzana_SV_Battler_50: 857276454
+      Red_Manzana_SV_Battler_51: 449361168
+      Red_Manzana_SV_Battler_52: -1181686676
+      Red_Manzana_SV_Battler_53: 545521464
+      Red_Manzana_SV_Battler_6: 5080745
+      Red_Manzana_SV_Battler_7: 2139431934
+      Red_Manzana_SV_Battler_8: -860497567
+      Red_Manzana_SV_Battler_9: -561414993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
