@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 282.18405, y: 3.978539, z: 0}
+  m_LocalScale: {x: 282.18405, y: 13.049608, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -141,7 +141,8 @@ EdgeCollider2D:
   - {x: -0.500041, y: -0.508396}
   - {x: -0.5001001, y: 0.49755734}
   - {x: 0.22319357, y: 0.5000093}
-  - {x: 0.22315265, y: 0.010206401}
+  - {x: 0.3945132, y: 0.48813796}
+  - {x: 0.39471254, y: -0.49577153}
   - {x: 0.22311644, y: -0.50026166}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
