@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4677305033326701142}
   - component: {fileID: 2474225601217241626}
   m_Layer: 0
-  m_Name: Trampa (1)
+  m_Name: RamaZarza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 591181643574678652}
   - component: {fileID: 1050677604236680453}
   m_Layer: 0
-  m_Name: Trampa
+  m_Name: RamaZarza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 5189104846789676845}
   - component: {fileID: 3906936818907668862}
   m_Layer: 0
-  m_Name: Trampa (2)
+  m_Name: RamaZarza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
