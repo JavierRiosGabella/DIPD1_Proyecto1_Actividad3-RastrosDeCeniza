@@ -94,7 +94,7 @@ Transform:
   m_GameObject: {fileID: 2850302494213161451}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 141.15897, y: -6.938958, z: 2.5934608}
+  m_LocalPosition: {x: 0.04, y: -3.98, z: 0}
   m_LocalScale: {x: 0.2834334, y: 0.2834334, z: 0.2834334}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -391,9 +391,11 @@ GameObject:
   - component: {fileID: 668861618587094289}
   - component: {fileID: 5533757168692459812}
   - component: {fileID: 2494011877620678033}
+  - component: {fileID: 8060195422864092176}
+  - component: {fileID: 3713113884027586165}
   m_Layer: 0
   m_Name: "Ni\xF1a"
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,7 +504,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: 1f96f759e5613234eb7f25698d0eeabf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -554,6 +556,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementType: 0
+--- !u!114 &8060195422864092176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003754574494141943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3348b43c905be40dca701695a42a3fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlesPrefab: {fileID: 0}
+--- !u!114 &3713113884027586165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003754574494141943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8aa74941ba447c9814dd37886c6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filterByTag: 1
+  collisionTag: Tramp
+  sendMessage: 0
+  message: 
+  onCollisionEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8060195422864092176}
+        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
+        m_MethodName: UP_SelfDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5296818530964060831
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +628,7 @@ Transform:
   m_GameObject: {fileID: 5296818530964060831}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 7.7, z: -10}
+  m_LocalPosition: {x: -0.2, y: -0.9, z: -10}
   m_LocalScale: {x: 0.153566, y: 0.1584732, z: 0.24054822}
   m_ConstrainProportionsScale: 0
   m_Children: []
