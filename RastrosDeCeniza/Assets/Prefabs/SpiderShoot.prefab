@@ -17,9 +17,10 @@ GameObject:
   - component: {fileID: 5122720990774667261}
   - component: {fileID: 89828563279508702}
   - component: {fileID: 2603367390676808337}
+  - component: {fileID: 2445844821639370535}
   m_Layer: 0
   m_Name: SpiderShoot
-  m_TagString: Untagged
+  m_TagString: Shoot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,16 +241,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8aa74941ba447c9814dd37886c6a52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filterByTag: 0
-  collisionTag: 
-  sendMessage: 0
-  message: 
+  filterByTag: 1
+  collisionTag: Player
+  sendMessage: 1
+  message: damage player
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3460848748609010122}
         m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
         m_MethodName: UP_SelfDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2445844821639370535}
+        m_TargetAssemblyTypeName: UP_Messenger, Assembly-CSharp
+        m_MethodName: UP_SendMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -273,3 +286,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audios:
   - {fileID: 8300000, guid: 30bf0becd2fc2a04aa4e089cbb752900, type: 3}
+--- !u!114 &2445844821639370535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776253829196717198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e16f751db1a4d21a519775cf180d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  receiverType: 2
+  receiver: {fileID: 0}
+  receiverName: 
+  receiverTag: canvas
+  message: 1 menos de vida
+  messages: []
+  randomizeMessage: 0
