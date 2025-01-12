@@ -48,7 +48,7 @@ MonoBehaviour:
   prefab: {fileID: 776253829196717198, guid: 97fef31f301f4da44be2013af3887c55, type: 3}
   prefabs: []
   areaType: 0
-  rectangleSize: {x: 0, y: 3}
+  rectangleSize: {x: 0, y: 1}
   circleRadius: 1
   useCircunferenceOnly: 1
   pointsTag: 
@@ -381,7 +381,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 420230206371796867}
