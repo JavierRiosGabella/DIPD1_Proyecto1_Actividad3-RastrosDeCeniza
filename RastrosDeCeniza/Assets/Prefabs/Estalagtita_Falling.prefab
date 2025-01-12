@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1066813187639342408}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.25, y: -1.98, z: 0}
+  m_LocalPosition: {x: -3.41, y: -4.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -228,7 +228,7 @@ EdgeCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6401386285852569943}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -285,12 +285,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8727450869259200453}
-  - component: {fileID: 2561418940348618221}
-  - component: {fileID: 4311489147317851184}
-  - component: {fileID: 4198810890788095578}
   - component: {fileID: 196069564462103812}
+  - component: {fileID: 2561418940348618221}
+  - component: {fileID: 4198810890788095578}
+  - component: {fileID: 4311489147317851184}
   - component: {fileID: 988320661845235868}
-  - component: {fileID: 4101092174062474983}
+  - component: {fileID: 2519670620891781312}
+  - component: {fileID: 6768589391107146387}
+  - component: {fileID: 1451622907883311911}
   m_Layer: 0
   m_Name: Estalagtita_Falling
   m_TagString: Tramp
@@ -308,13 +310,40 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.940051, y: 13.6705065, z: 0.06868437}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.23632, y: 0.23632, z: 0.23632}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2736126853165050771}
   - {fileID: 4060887789667794031}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &196069564462103812
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377974080750027856}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!114 &2561418940348618221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,7 +359,38 @@ MonoBehaviour:
   filterByTag: 1
   collisionTag: floor
   sendMessage: 0
-  message: 
+  message: destroy
+  onCollisionEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4311489147317851184}
+        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
+        m_MethodName: UP_SelfDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4198810890788095578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377974080750027856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8aa74941ba447c9814dd37886c6a52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filterByTag: 1
+  collisionTag: Player
+  sendMessage: 0
+  message: destroy
   onCollisionEnter:
     m_PersistentCalls:
       m_Calls:
@@ -359,64 +419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particlesPrefab: {fileID: 0}
---- !u!114 &4198810890788095578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7377974080750027856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc8aa74941ba447c9814dd37886c6a52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  filterByTag: 1
-  collisionTag: Player
-  sendMessage: 0
-  message: 
-  onCollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4311489147317851184}
-        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
-        m_MethodName: UP_SelfDestroy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!50 &196069564462103812
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7377974080750027856}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &988320661845235868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +432,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementType: 0
---- !u!114 &4101092174062474983
+--- !u!68 &2519670620891781312
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377974080750027856}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.64178216, y: 2.255111}
+  - {x: -2.0753453, y: 2.2393553}
+  - {x: -1.9582131, y: 1.8584158}
+  - {x: -1.8506695, y: 1.8311081}
+  - {x: -1.821305, y: 1.3008953}
+  - {x: -1.7119118, y: 1.011866}
+  - {x: -1.5038007, y: 0.83706826}
+  - {x: -1.3498544, y: 0.49388164}
+  - {x: -1.2224222, y: 0.43502048}
+  - {x: -1.0208344, y: 0.52762914}
+  - {x: -1.0294383, y: 0.9784497}
+  - {x: -0.82460284, y: 1.3089695}
+  - {x: -0.8593442, y: 1.4455237}
+  - {x: -0.8316342, y: 1.5464183}
+  - {x: -0.81484795, y: 1.6606656}
+  - {x: -0.6440247, y: 2.2543137}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &6768589391107146387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -458,3 +515,41 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1451622907883311911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377974080750027856}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f84fb802aed34574a095ee7fbfca564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filterByTag: 1
+  filterTag: floor
+  sendMessage: 1
+  message: destroy
+  timeBetweenStayEvents: 0
+  onTriggerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4311489147317851184}
+        m_TargetAssemblyTypeName: UP_SelfDestroyer, Assembly-CSharp
+        m_MethodName: UP_SelfDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTriggerStay:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
