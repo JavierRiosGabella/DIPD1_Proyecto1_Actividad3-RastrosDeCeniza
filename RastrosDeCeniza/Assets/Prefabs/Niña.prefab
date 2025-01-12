@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: space
-  timeBetweenEvents: 0
+  timeBetweenEvents: 1
   onKeyDown:
     m_PersistentCalls:
       m_Calls:
