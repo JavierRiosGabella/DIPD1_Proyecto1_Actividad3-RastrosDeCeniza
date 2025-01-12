@@ -1220,6 +1220,8 @@ GameObject:
   - component: {fileID: 174386013451058297}
   - component: {fileID: 2656654331188848401}
   - component: {fileID: 5902724540860085666}
+  - component: {fileID: 1210741515007075070}
+  - component: {fileID: 3301995987692514060}
   m_Layer: 0
   m_Name: AttackRight
   m_TagString: Untagged
@@ -1315,6 +1317,63 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1210741515007075070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648399316861431381}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e16f751db1a4d21a519775cf180d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  receiverType: 2
+  receiver: {fileID: 0}
+  receiverName: 
+  receiverTag: 
+  message: 
+  messages: []
+  randomizeMessage: 0
+--- !u!114 &3301995987692514060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648399316861431381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c1a45bbc27d4894a9a9d6f7750b4aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialTime: 0
+  randomInitialTime:
+    min: 0
+    max: 1
+  repeat: 0
+  repeatTime: 1
+  randomRepeatTime:
+    min: 0
+    max: 1
+  randomizeTimes: 0
+  autoStart: 1
+  onTimeUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UP_Counter, Assembly-CSharp
+        m_MethodName: UP_IncreaseCounter
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8756292253138863381
 GameObject:
   m_ObjectHideFlags: 0
